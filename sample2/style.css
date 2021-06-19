@@ -20,6 +20,7 @@ body {
 .main-container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 82px;
 }
 
 .main-visual {
@@ -81,4 +82,17 @@ body {
 .how-to-make__item {
     padding: 9px 0;
     border-bottom: 1px solid #CCCCCC;
+}
+
+
+/*-------------------- other-recipe -----------------------*/
+
+.other-recipe {
+    text-align: center;
+    font-size: 14px;
+}
+
+.other-recipe__link {
+    border: 1px solid #2B2A27;
+    padding: 22px 60px
 }
