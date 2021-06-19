@@ -33,7 +33,6 @@ body {
     object-fit: cover;
 }
 
-
 /*-------------------- content -----------------------*/
 
 .content-wrapper {
@@ -85,14 +84,60 @@ body {
 }
 
 
+@media screen and (max-width: 768px) {
+    .main-container {
+        flex-flow: column;
+    }
+
+    .main-visual {
+        width: 100%;
+    }
+
+    .main-visual__img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .content-wrapper {
+        width: 100%;
+        padding: 45px 20px 60px;
+    }
+}
+
+
 /*-------------------- other-recipe -----------------------*/
 
 .other-recipe {
     text-align: center;
     font-size: 14px;
+    margin-bottom: 123px;
 }
 
 .other-recipe__link {
     border: 1px solid #2B2A27;
     padding: 22px 60px
+}
+
+
+/*-------------------- footre -----------------------*/
+
+.sns {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.sns__item {
+    font-size: 14px;
+    border-bottom: 1px solid #2B2A27;
+}
+
+.sns__item {
+    margin: 0 19px 20px 0;
+}
+
+.copyright {
+    text-align: center;
+    margin-bottom: 20px;
 }
